@@ -61,7 +61,7 @@ const service: ITagService = {
         const label = (name.length > 34 ? name.slice(0, 31) + "..." : name) + ` (${address.slice(2, 12)})`;
         if (labels.has(label)) throw new Error("Ambiguous pool name");
         labels.add(label);
-        tags.push({ "Contract Address": `eip155:43114:${address}`, "Project Name": "LFJ",
+        tags.push({ "Contract Address": `eip155:43114:${address}`, "Project Name": "Let’s F***ing Joe (LFJ)",
           "Public Name Tag": label, "UI/Website Link": "https://lfj.gg",
           "Public Note": `Banker Joe lending receipt token on Avalanche, from Trader Joe (now LFJ). Symbol: ${pool.outputToken!.symbol}. Underlying: ${pool.inputToken.symbol}. Market: ${pool.id}.` });
       }

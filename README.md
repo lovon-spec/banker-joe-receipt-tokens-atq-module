@@ -4,4 +4,6 @@ ATQ module for Banker Joe receipt token markets on Avalanche (43114), from the M
 
 Build with Yarn and call the sole exported async returnTags(chainId, apiKey). All implementation is in src/main.mts. Errors and inconsistent metadata fail the whole call.
 
+Project Name uses the full rebranded name and abbreviation from the project's announcement: https://joecontent.substack.com/p/lets-fing-joe-formerly-trader-joe
+
 Unpublished preparation draft; no registry review or filing authority.
